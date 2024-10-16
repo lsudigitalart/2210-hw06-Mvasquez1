@@ -12,7 +12,7 @@ function preload() {
   trees = loadImage("https://i.natgeofe.com/n/6ef19f2a-1cf9-4c0a-9760-cbac719036d2/AdamKuehl_33-7037152c-84-399185.jpg");
   barrel = loadImage("ofmonkeys.png");
   monMove = loadImage("https://media.tenor.com/E_6bB3MgpVsAAAAM/monkey-sleep-cute-monkey.gif");
-  bar = loadImage("https://preview.redd.it/donkey-kong-barrels-v0-6mvks2ktzk0a1.png?auto=webp&s=ed1dfc93273fbf0eca42ff957dddc740e43f4092");
+  //bar = loadImage("donkey-kong-barrel-.png");
   gb = loadImage("https://media.tenor.com/Jg8v962BbwgAAAAi/golden-gold.gif");
   monToy = loadImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVBSPsnpy_oa9kKjKhcdloGeWwOyfVVLbV7w&s");
   blueSky = loadImage("https://images.squarespace-cdn.com/content/v1/5d8fc40ed3f19b71ebb703a6/1698174233089-UX53RDNGYJ990ZM9ETC2/Blue+Sky+App+Photo.png");
@@ -36,7 +36,7 @@ function draw() {
     image(trees, 0, 310, 700, 200);
     image(barrel, 200, 400, 50, 50);
     image(monToy, 430, 400, 50, 50);
-    image(bar, 280, 400, 100, 100);
+    //image(bar, 280, 400, 100, 100);
     image(monkeyL, 0,400, 100, 100)
     image(monMove, 500, 400, 100, 100);
     image(gb, 300, 350, 50, 50);
